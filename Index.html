@@ -1,6 +1,113 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color:#B82132;
+   color: azure;
+   padding:1rem;
+   display: flex;
+   justify-content:space-evenly;
+}
+.logo {
+   width: 80%;
+   height: 25%;
+}
+#logo {
+   padding-top: 5%;
+}
+main {
+   padding: 2rem;
+   background-image: url(img/logo\ dp.jpg);
+   background-repeat: no-repeat;
+}
+
+.school-details, .notice-board {
+   margin-bottom: 5rem;
+}
+
+#d1, #f1, #n1 {
+   color: black;
+}
+
+footer {
+   background-color:rgb(11, 10, 10);
+   color: rgb(221, 217, 212);
+   text-align: left;
+   padding: 1%;
+   bottom: 0;
+   width: 100%;
+}
+
+img {
+   height: 9rem;
+   color: whitesmoke;
+}
+  /* Responsive Design */
+@media screen and (max-width: 1160px) {
+   header {
+       align-items: flex-start;
+       padding: 1%;
+   }
+   #logo{
+    padding-top: 9%;
+    }
+
+   header h1 {
+      size: 8rem;
+      margin-top: 10%;
+       padding-left: 0;
+   }
+
+   main {
+       padding: 1rem;
+       background-size: contain;
+       background-position: center;
+   }
+
+   .school-details, .notice-board {
+       margin-bottom: 2rem;
+   }
+
+   img {
+       height: 7rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   header {
+       padding: 1rem;
+   }
+
+   #logo{
+    padding-top: 9%;
+    }
+
+   header h1 {
+      size: 3rem;
+       font-size: 1.5rem;
+   }
+
+   main {
+       padding: 0.5rem;
+   }
+
+   .school-details, .notice-board {
+       margin-bottom: 1rem;
+   }
+
+   img {
+       height: 5rem;
+   }
+}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vj concept school</title>
@@ -125,3 +232,4 @@
 
 </body>
 </html>
+
