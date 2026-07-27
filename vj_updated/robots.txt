@@ -1,0 +1,16 @@
+# robots.txt — VJ Concept School
+# https://vjconceptschool.in/
+
+# Allow all well-behaved crawlers full access
+User-agent: *
+Allow: /
+
+# Block access to any admin or private directories (if added in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay hint for polite bots
+Crawl-delay: 5
+
+# Point crawlers to the XML sitemap
+Sitemap: https://vjconceptschool.in/sitemap.xml

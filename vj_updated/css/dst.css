@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+    background-color:#B82132;
+    color: azure;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+ }
+ footer {
+    background-color:rgb(11, 10, 10);
+    color: rgb(221, 217, 212);
+    text-align: left;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+ }

@@ -1,0 +1,58 @@
+#loginbox {
+    background-color: #b821335c;
+    height: 60%;
+    width: 20%;
+    margin: auto;
+    border-radius: 7%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 20%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #B82132;
+    color: azure;
+    text-align: center;
+    padding: 3%;
+    display: flex;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 30%;
+    align-items: flex-start;
+    margin-bottom: 4%;
+}
+footer {
+    background-color:rgb(11, 10, 10);
+    color: rgb(221, 217, 212);
+    text-align: left;
+    margin-top: 75%;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+ }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #loginbox {
+        width: 60%;
+        height: auto;
+        padding: 5%;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #loginbox {
+        width: 80%;
+        height: auto;
+    }
+
+    header {
+        font-size: 1.2rem;
+    }
+}
